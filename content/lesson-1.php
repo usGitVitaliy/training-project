@@ -11,7 +11,7 @@
         <nav>
             <ul>
                 <li><a class="a-box disabled" href="#">Урок 1</a></li>
-                <li><a class="a-box" href="#">Урок 2</a></li>
+                <li><a class="a-box" href="lesson-2.php">Урок 2</a></li>
             </ul>
         </nav>
     </header>

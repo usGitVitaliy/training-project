@@ -72,7 +72,7 @@ a.a-box {
 }
 
 a.a-box:hover {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(150, 150, 150);
 }
 
 a.disabled {
@@ -97,4 +97,20 @@ table, td {
 td {
     padding: 8px;
     text-align: left;
+}
+
+span.one {
+    color: red;
+}
+
+span.two {
+    color: green;
+}
+
+span.three {
+    color: yellow;
+}
+
+span.four {
+    color: blue;
 }
