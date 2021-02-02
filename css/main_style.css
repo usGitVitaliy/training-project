@@ -3,7 +3,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -60,4 +59,28 @@ a {
 
 a:hover {
     background-color: rgb(170, 170, 170);
+}
+
+a.disabled {
+    pointer-events: none;
+    background-color: #000;
+}
+
+h2 {
+    clear: both;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+table {
+    margin: auto;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
 }
