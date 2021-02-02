@@ -3,19 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <title>Учебный проект</title>
-    <link rel="stylesheet" href="../css/main_style.css">
+    <link rel="stylesheet" href="/css/main_style.css">
 </head>
 <body>
     <header>
         <h1>Учебный проект</h1>
-    </header>
-    <main>
         <nav>
             <ul>
-                <li><a class="disabled" href="#">Урок 1</a></li>
-                <li><a href="#">Урок 2</a></li>
+                <li><a class="a-box disabled" href="#">Урок 1</a></li>
+                <li><a class="a-box" href="#">Урок 2</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
         <h2>Таблица умножения</h2>
         <table>
             <?php
