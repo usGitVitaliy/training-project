@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Учебный проект</title>
-    <link rel="stylesheet" href="/css/main_style.css">
+    <link rel="stylesheet" href="/css/main_style.css" />
     <style>
         body {
             /* закрасил для улучшения читабельности */
@@ -22,6 +22,7 @@
         <ul>
             <li><a class="a-box" href="lesson-1.php">Урок 1</a></li>
             <li><a class="a-box disabled" href="#">Урок 2</a></li>
+            <li><a class="a-box" href="less-3-request.html">Урок 3</a></li>
         </ul>
     </nav>
 </header>

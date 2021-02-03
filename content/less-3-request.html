@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Учебный проект</title>
+    <link rel="stylesheet" href="/css/main_style.css" />
+</head>
+<body>
+    <header>
+        <h1>Учебный проект</h1>
+        <nav>
+            <ul>
+                <li><a class="a-box" href="lesson-1.php">Урок 1</a></li>
+                <li><a class="a-box" href="lesson-2.php">Урок 2</a></li>
+                <li><a class="a-box disabled" href="#">Урок 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Обработка запроса</h2>
+        <!--<form method="post" autocomplete="off" action="less-3-response.php">-->
+        <form method="post" autocomplete="off" action="less-3-response.php">
+            <fieldset>
+                <legend>Отправка строки на сервер</legend>
+                <label for="str_user_input">Введите строку</label>
+                <input type="text" id="str_user_input" name="str_user_input" size="45" />
+                <input style="margin-top: 10px;" type="submit" value="Отправить" />
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        mailman&reg; Все права защищены
+    </footer>
+</body>
+</html>

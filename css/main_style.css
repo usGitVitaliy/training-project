@@ -38,13 +38,11 @@ footer {
 h1 {
     font-size: 16px;
     text-align: center;
-    /*margin-bottom: 0;*/
 }
 
 nav {
-    width: 300px;
+    width: 400px;
     margin: auto;
-    background-color: darkgreen;
 }
 
 nav ul {
@@ -113,4 +111,9 @@ span.three {
 
 span.four {
     color: blue;
+}
+
+form {
+    width: 600px;
+    margin: 25px auto auto auto;
 }
