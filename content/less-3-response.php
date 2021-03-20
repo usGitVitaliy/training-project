@@ -60,11 +60,10 @@
             $str_user = $_POST['str_user_input'];
             $stopOutput = iconv_strlen($str_user);
             ++$stopOutput;
-            $stopOutput *= -1;
 
             $resultOutput = '';
 
-            for ($i = -1; $i > $stopOutput; --$i) {
+            for ($i = $stopOutput; $i > -1; --$i) {
                 $resultOutput .= iconv_substr($str_user, $i, 1);
             }
 
